@@ -163,9 +163,9 @@ section.content::after {
 /* Code - Sezione contenuti e video */
 
 .video-image{
-    width: 384px;
+    width: 380px;
     float: left;
-    margin: 30px;
+    margin: 10px;
 }   
 
 .video-image img {
@@ -191,4 +191,8 @@ section.content::after {
 
 .video-title p{
     margin-top: 5px;
+}
+
+.video-title > p{
+    color: #333333;
 }
